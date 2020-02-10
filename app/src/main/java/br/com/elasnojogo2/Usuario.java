@@ -10,7 +10,6 @@ public class Usuario implements Parcelable {
     private String senha;
     private String confirmarSenha;
 
-
     public Usuario(String nome, String email, Long telefone, String senha, String confirmarSenha) {
         this.nome = nome;
         this.email = email;
