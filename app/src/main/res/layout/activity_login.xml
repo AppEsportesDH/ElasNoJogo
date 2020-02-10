@@ -150,7 +150,7 @@ tools:context=".LoginActivity">
         app:layout_constraintTop_toBottomOf="@+id/acessar_sua_conta">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/email"
+            android:id="@+id/campo_email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/lato_thin"
@@ -174,7 +174,7 @@ tools:context=".LoginActivity">
         app:layout_constraintTop_toBottomOf="@+id/hint_email">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/senha"
+            android:id="@+id/campo_senha"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/lato_thin"
