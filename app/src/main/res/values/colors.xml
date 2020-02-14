@@ -6,7 +6,7 @@
     <color name="colorText">#A5A5A5</color>
     <color name="colorHint">#9C444B</color>
     <color name="branco">#FFFFFF</color>
-    <color name="brancotransparente">#80FFFFFF</color>
+    <color name="brancotransparente">#00FFFFFF</color>
     <color name="vinho">#B45057</color>
     <color name="btn">#9C444B</color>
     <color name="container">#9A9C444B</color>

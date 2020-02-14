@@ -10,12 +10,21 @@
     <string name="n_o_tenho_conta">NÃO TENHO CONTA</string>
     <string name="mensagem_home">Olá, %1$s</string>
     <string name="nome_evento">nome evento</string>
-
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nome">%1$s</string>
+    <string name="email">%2$s</string>
+    <string name="telefone">%3$s</string>
+    <string name="senha">%4$s</string>
     <string name="meus_eventos">Meus Eventos</string>
     <string name="data">data</string>
     <string name="local">local</string>
     <string name="categoria">CATEGORIA</string>
     <string name="criar_evento">Criar Evento</string>
+    <string name="nome_perfil">NOME</string>
+
+
+    <string name="email_perfil">EMAIL</string>
+    <string name="telefone_perfil">TELEFONE</string>
+    <string name="senha_perfil">SENHA</string>
+    <string name="salvar">SALVAR</string>
+
 </resources>
