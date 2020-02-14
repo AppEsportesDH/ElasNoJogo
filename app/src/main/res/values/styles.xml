@@ -6,11 +6,12 @@
         <item name="colorPrimary">@color/colorText</item>
         <item name="colorPrimaryDark">@color/btn</item>
         <item name="colorAccent">@color/colorHint</item>
-        <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorAccent">@color/colorAccent</item>
-            </style>
+    </style>
 
-        </resources>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
     </style>
 
 </resources>
