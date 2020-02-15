@@ -40,4 +40,8 @@
     <string name="check_naobi">Pessoas não-binárias</string>
     <string name="add_adm">ADICIONAR ADMINISTRADORAS</string>
     <string name="cadastrar_evento">CADASTRAR EVENTO</string>
+    <string name="pesquisar">PESQUISAR</string>
+    <string name="resultados">RESULTADOS</string>
+    <string name="filtros">FILTROS</string>
+    <string name="mostrar_mais">MOSTRAR MAIS</string>
 </resources>
