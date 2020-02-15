@@ -18,4 +18,6 @@
     <string name="local">local</string>
     <string name="categoria">CATEGORIA</string>
     <string name="criar_evento">Criar Evento</string>
+    <string name="favoritos">FAVORITOS</string>
+    <string name="nome">Nome</string>
 </resources>
