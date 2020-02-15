@@ -44,4 +44,6 @@
     <string name="resultados">RESULTADOS</string>
     <string name="filtros">FILTROS</string>
     <string name="mostrar_mais">MOSTRAR MAIS</string>
+    <string name="open_drawer">Abrir</string>
+    <string name="close_drawer">Fechar</string>
 </resources>
