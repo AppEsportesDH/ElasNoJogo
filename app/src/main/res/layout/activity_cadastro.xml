@@ -5,7 +5,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
+    tools:context=".Views.MainActivity"
     android:background="@drawable/background_watercolor">
 
     <TextView
@@ -17,11 +17,10 @@
         android:textColor="#071D4F"
         android:textSize="36sp"
         android:typeface="sans"
-        app:layout_constraintBottom_toTopOf="@+id/identificacao"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/identificacao"
@@ -29,13 +28,14 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginLeft="32dp"
+        android:layout_marginTop="16dp"
         android:fontFamily="@font/lato"
         android:text="IDENTIFICO-ME COMO"
         android:textColor="#071D4F"
         android:textSize="14sp"
         android:typeface="sans"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="161dp" />
+        app:layout_constraintTop_toBottomOf="@+id/cadastro" />
 
     <TextView
         android:id="@+id/genero"
@@ -221,7 +221,7 @@
         android:textSize="14sp"
         android:typeface="sans"
         app:layout_constraintEnd_toEndOf="parent"
-        tools:layout_editor_absoluteY="544dp" />
+        app:layout_constraintTop_toTopOf="@+id/esporte2" />
 
     <Button
         android:id="@+id/btn_cadastrar"

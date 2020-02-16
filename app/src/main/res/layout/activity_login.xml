@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background_watercolor"
-    tools:context=".LoginActivity">
+    tools:context=".Views.LoginActivity">
 
     <ImageView
         android:id="@+id/logo"
@@ -58,8 +58,7 @@
             android:id="@+id/campo_email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/lato"
-            android:hint="hint" />
+            android:fontFamily="@font/lato" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -82,8 +81,7 @@
             android:id="@+id/campo_senha"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/lato"
-            android:hint="hint" />
+            android:fontFamily="@font/lato" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button

@@ -1,10 +1,12 @@
-package br.com.elasnojogo2;
+package br.com.elasnojogo2.Views;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import java.util.Timer;
 import java.util.TimerTask;
+
+import br.com.elasnojogo2.R;
 
 public class SplashActivity extends AppCompatActivity {
 
