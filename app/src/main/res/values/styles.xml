@@ -5,10 +5,9 @@
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorText</item>
         <item name="colorPrimaryDark">@color/btn</item>
-        <item name="colorAccent">@color/colorHint</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
-
+    <!-- Remover ActionBar -->
     <style name="AppTheme.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
