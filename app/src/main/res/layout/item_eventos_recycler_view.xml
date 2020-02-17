@@ -6,8 +6,7 @@
     android:layout_margin="16dp"
     android:background="@color/container"
     android:orientation="vertical"
-
-    >
+    app:cardBackgroundColor="@color/container">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -37,7 +36,7 @@
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
             android:text="@string/nome_evento"
-            android:textColor="@color/colorAccent"
+            android:textColor="@color/branco"
             android:textSize="20sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/circleImageView"
@@ -52,6 +51,7 @@
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
             android:text="@string/local"
+            android:textColor="@color/branco"
             android:textSize="20sp"
             app:layout_constraintBottom_toBottomOf="@+id/circleImageView"
             app:layout_constraintEnd_toEndOf="parent"
@@ -67,6 +67,7 @@
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
             android:text="@string/data"
+            android:textColor="@color/branco"
             android:textSize="20sp"
             app:layout_constraintBottom_toBottomOf="@+id/circleImageView"
             app:layout_constraintEnd_toEndOf="parent"
