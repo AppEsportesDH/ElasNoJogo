@@ -4,7 +4,7 @@ import android.os.Parcel;
 import android.os.Parcelable;
 import android.widget.Button;
 
-public class Comunicador implements Parcelable {
+public class DadosEvento implements Parcelable {
     private String nomeEvento;
     private String localEvento;
     private String categoriaEvento;
@@ -15,7 +15,7 @@ public class Comunicador implements Parcelable {
     private int adicionarImagem;
 
 
-    public Comunicador(String nomeEvento, String localEvento, String categoriaEvento, String horarioEvento,
+    public DadosEvento(String nomeEvento, String localEvento, String categoriaEvento, String horarioEvento,
                        String dataEvento, String checksSegurança, Button cadastrarEventos, int adicionarImagem) {
         this.nomeEvento       = nomeEvento;
         this.localEvento      = localEvento;
@@ -27,7 +27,7 @@ public class Comunicador implements Parcelable {
         this.adicionarImagem  = adicionarImagem;
     }
 
-    protected Comunicador(Parcel in) {
+    protected DadosEvento(Parcel in) {
         nomeEvento      = in.readString();
         localEvento     = in.readString();
         categoriaEvento = in.readString();
@@ -39,15 +39,15 @@ public class Comunicador implements Parcelable {
 
     }
 
-    public static final Creator<Comunicador> CREATOR = new Creator<Comunicador>() {
+    public static final Creator<DadosEvento> CREATOR = new Creator<DadosEvento>() {
         @Override
-        public Comunicador createFromParcel(Parcel in) {
-            return new Comunicador(in);
+        public DadosEvento createFromParcel(Parcel in) {
+            return new DadosEvento(in);
         }
 
         @Override
-        public Comunicador[] newArray(int size) {
-            return new Comunicador[size];
+        public DadosEvento[] newArray(int size) {
+            return new DadosEvento[size];
         }
     };
 

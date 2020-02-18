@@ -46,6 +46,11 @@
         android:layout_marginEnd="32dp"
         android:layout_marginRight="32dp"
         android:orientation="vertical"
+        android:fontFamily="@font/lato"
+        android:padding="5dp"
+        android:textColor="@color/branco"
+        android:textSize="14sp"
+        android:typeface="sans"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/identificacao" />
@@ -53,11 +58,11 @@
 
     <EditText
         android:id="@+id/nome"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_width="380dp"
+        android:layout_height="40dp"
         android:layout_marginStart="32dp"
         android:layout_marginLeft="32dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="32dp"
         android:layout_marginRight="32dp"
         android:background="#99B45057"
@@ -73,11 +78,11 @@
 
     <EditText
         android:id="@+id/email"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_width="380dp"
+        android:layout_height="40dp"
         android:layout_marginStart="32dp"
         android:layout_marginLeft="32dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="32dp"
         android:layout_marginRight="32dp"
         android:background="#99B45057"
@@ -93,11 +98,11 @@
 
     <EditText
         android:id="@+id/telefone"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_width="380dp"
+        android:layout_height="40dp"
         android:layout_marginStart="32dp"
         android:layout_marginLeft="32dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="32dp"
         android:layout_marginRight="32dp"
         android:background="#99B45057"
@@ -113,11 +118,11 @@
 
     <EditText
         android:id="@+id/senha"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_width="380dp"
+        android:layout_height="40dp"
         android:layout_marginStart="32dp"
         android:layout_marginLeft="32dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="32dp"
         android:layout_marginRight="32dp"
         android:background="#99B45057"
@@ -133,11 +138,11 @@
 
     <EditText
         android:id="@+id/confirmarSenha"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_width="380dp"
+        android:layout_height="40dp"
         android:layout_marginStart="32dp"
         android:layout_marginLeft="32dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="32dp"
         android:layout_marginRight="32dp"
         android:background="#99B45057"
@@ -160,7 +165,7 @@
         android:layout_marginTop="24dp"
         android:fontFamily="@font/lato_thin"
         android:text="SELECIONE 3 INTERESSES"
-        android:textColor="#071D4F"
+        android:textColor="@color/textoPesquisa"
         android:textSize="14sp"
         android:typeface="sans"
         app:layout_constraintStart_toStartOf="parent"
@@ -168,10 +173,10 @@
 
     <TextView
         android:id="@+id/esporte1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginLeft="32dp"
+        android:layout_width="85dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginLeft="56dp"
         android:layout_marginTop="12dp"
         android:background="#99B45057"
         android:fontFamily="@font/lato_thin"
@@ -185,10 +190,12 @@
 
     <TextView
         android:id="@+id/esporte2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="85dp"
+        android:layout_height="30dp"
         android:layout_marginStart="52dp"
         android:layout_marginLeft="52dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
         android:background="#99B45057"
         android:fontFamily="@font/lato_thin"
         android:padding="5dp"
@@ -197,16 +204,16 @@
         android:textSize="14sp"
         android:typeface="sans"
         app:layout_constraintEnd_toStartOf="@+id/esporte3"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.9"
         app:layout_constraintStart_toEndOf="@+id/esporte1"
         app:layout_constraintTop_toTopOf="@+id/esporte1" />
 
     <TextView
         android:id="@+id/esporte3"
         android:layout_width="85dp"
-        android:layout_height="29dp"
-        android:layout_marginEnd="40dp"
-        android:layout_marginRight="40dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginRight="44dp"
         android:background="#99B45057"
         android:fontFamily="@font/lato_thin"
         android:padding="5dp"
@@ -215,7 +222,8 @@
         android:textSize="14sp"
         android:typeface="sans"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/esporte2" />
+        app:layout_constraintTop_toTopOf="@+id/esporte2"
+        tools:layout_editor_absoluteX="268dp" />
 
     <Button
         android:id="@+id/btn_cadastrar"

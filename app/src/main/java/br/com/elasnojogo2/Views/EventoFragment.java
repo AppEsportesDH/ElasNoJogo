@@ -11,7 +11,7 @@ import androidx.fragment.app.Fragment;
 
 import br.com.elasnojogo2.R;
 import br.com.elasnojogo2.Views.Interface.EventoView;
-import br.com.elasnojogo2.Views.Model.Comunicador;
+import br.com.elasnojogo2.Views.Model.DadosEvento;
 
 
 /**
@@ -97,7 +97,7 @@ public class EventoFragment extends Fragment implements EventoView {
     }
 
     @Override
-    public void salvarEvento(Comunicador comunicador) {
+    public void salvarEvento(DadosEvento comunicador) {
         // TODO: 15/02/2020 falta adicionar banco de dados;
     }
 
