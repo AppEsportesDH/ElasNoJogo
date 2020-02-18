@@ -60,7 +60,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/identificacao" />
 
-    <EditText
+    <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/nome"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -80,7 +80,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/genero" />
 
-    <EditText
+    <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/email"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -100,7 +100,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/nome" />
 
-    <EditText
+    <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/telefone"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -120,7 +120,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/email" />
 
-    <EditText
+    <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/senha"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -140,7 +140,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/telefone" />
 
-    <EditText
+    <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/confirmarSenha"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -181,7 +181,9 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginLeft="32dp"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
         android:background="#99B45057"
         android:fontFamily="@font/lato_thin"
         android:padding="5dp"
@@ -189,6 +191,7 @@
         android:textColor="@color/branco"
         android:textSize="14sp"
         android:typeface="sans"
+        app:layout_constraintEnd_toStartOf="@+id/esporte2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/selecaoInteresse" />
 
@@ -196,8 +199,11 @@
         android:id="@+id/esporte2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="52dp"
-        android:layout_marginLeft="52dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
         android:background="#99B45057"
         android:fontFamily="@font/lato_thin"
         android:padding="5dp"
@@ -208,14 +214,17 @@
         app:layout_constraintEnd_toStartOf="@+id/esporte3"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/esporte1"
-        app:layout_constraintTop_toTopOf="@+id/esporte1" />
+        app:layout_constraintTop_toBottomOf="@+id/selecaoInteresse" />
 
     <TextView
         android:id="@+id/esporte3"
         android:layout_width="85dp"
         android:layout_height="29dp"
-        android:layout_marginEnd="40dp"
-        android:layout_marginRight="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
         android:background="#99B45057"
         android:fontFamily="@font/lato_thin"
         android:padding="5dp"
@@ -224,7 +233,8 @@
         android:textSize="14sp"
         android:typeface="sans"
         app:layout_constraintEnd_toEndOf="parent"
-        tools:layout_editor_absoluteY="544dp" />
+        app:layout_constraintStart_toEndOf="@+id/esporte2"
+        app:layout_constraintTop_toBottomOf="@+id/selecaoInteresse" />
 
     <Button
         android:id="@+id/btn_cadastrar"
