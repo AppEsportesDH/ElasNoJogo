@@ -10,8 +10,8 @@ import android.view.ViewGroup;
 import androidx.fragment.app.Fragment;
 
 import br.com.elasnojogo2.R;
-import br.com.elasnojogo2.Views.Interface.EventoView;
-import br.com.elasnojogo2.Views.Model.DadosEvento;
+import br.com.elasnojogo2.Interface.EventoView;
+import br.com.elasnojogo2.Model.DadosEvento;
 
 
 /**

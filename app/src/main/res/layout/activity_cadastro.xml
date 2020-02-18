@@ -37,7 +37,7 @@
         app:layout_constraintTop_toBottomOf="@+id/cadastro" />
 
     <Spinner
-        android:id="@+id/genero"
+        android:id="@+id/spinner_genero"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
@@ -57,7 +57,7 @@
 
 
     <EditText
-        android:id="@+id/nome"
+        android:id="@+id/nome_usuario"
         android:layout_width="380dp"
         android:layout_height="40dp"
         android:layout_marginStart="32dp"
@@ -74,7 +74,7 @@
         android:typeface="sans"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/genero" />
+        app:layout_constraintTop_toBottomOf="@+id/spinner_genero" />
 
     <EditText
         android:id="@+id/email"
@@ -94,7 +94,7 @@
         android:typeface="sans"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/nome" />
+        app:layout_constraintTop_toBottomOf="@+id/nome_usuario" />
 
     <EditText
         android:id="@+id/telefone"
