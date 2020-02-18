@@ -45,55 +45,64 @@
             android:layout_height="200dp">
 
             <TextView
+                android:id="@+id/textView_nomeEvento"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@color/brancotransparente"
+                android:layout_marginStart="24dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="104dp"
+                android:background="@color/branco"
                 android:fontFamily="@font/lato"
+                android:padding="2dp"
                 android:text="@string/nome_evento"
                 android:textColor="@color/colorAccent"
-                android:textSize="18sp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.005"
+                android:textSize="15sp"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.550" />
+                app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
+                android:id="@+id/textView_localEvento"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@color/brancotransparente"
+                android:layout_marginStart="24dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginBottom="8dp"
+                android:background="@color/branco"
                 android:fontFamily="@font/lato"
+                android:padding="2dp"
                 android:text="@string/local"
                 android:textColor="@color/colorAccent"
-                android:textSize="18sp"
+                android:textSize="15sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.005"
+                app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.750" />
+                app:layout_constraintTop_toBottomOf="@+id/textView_dataEvento"
+                app:layout_constraintVertical_bias="1.0" />
 
             <TextView
+                android:id="@+id/textView_dataEvento"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@color/brancotransparente"
+                android:layout_marginStart="24dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="8dp"
+                android:background="@color/branco"
                 android:fontFamily="@font/lato"
+                android:padding="2dp"
                 android:text="@string/data"
                 android:textColor="@color/colorAccent"
-                android:textSize="18sp"
-                app:layout_constraintBottom_toBottomOf="parent"
+                android:textSize="15sp"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.005"
+                app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.950" />
+                app:layout_constraintTop_toBottomOf="@+id/textView_nomeEvento" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </LinearLayout>
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/textView_Categoria1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -104,12 +113,12 @@
         android:text="@string/categoria"
         android:textColor="@color/colorText"
         android:textSize="18sp"
-        app:layout_constraintBottom_toTopOf="@+id/container2_home"
+        app:layout_constraintBottom_toTopOf="@+id/container_categoria1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/container1_home" />
 
     <LinearLayout
-        android:id="@+id/container2_home"
+        android:id="@+id/container_categoria1"
         android:layout_width="180dp"
         android:layout_height="110dp"
         android:layout_marginStart="16dp"
@@ -118,10 +127,10 @@
         android:background="@color/container"
         android:orientation="horizontal"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        app:layout_constraintTop_toBottomOf="@+id/textView_Categoria1" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/textView_Categoria2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
@@ -132,13 +141,12 @@
         android:text="@string/categoria"
         android:textColor="@color/colorText"
         android:textSize="18sp"
-        app:layout_constraintBottom_toTopOf="@+id/container2_home"
+        app:layout_constraintBottom_toTopOf="@+id/container_categoria1"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/container1_home"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintTop_toBottomOf="@+id/container1_home" />
 
     <LinearLayout
-        android:id="@+id/container3_home"
+        android:id="@+id/container_categoria2"
         android:layout_width="180dp"
         android:layout_height="110dp"
         android:layout_marginTop="8dp"
@@ -147,10 +155,10 @@
         android:background="@color/container"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+        app:layout_constraintTop_toBottomOf="@+id/textView_Categoria2" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/textView_Categoria3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -161,10 +169,10 @@
         android:textColor="@color/colorText"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/container2_home" />
+        app:layout_constraintTop_toBottomOf="@+id/container_categoria1" />
 
     <LinearLayout
-        android:id="@+id/container4_home"
+        android:id="@+id/container_categoria3"
         android:layout_width="180dp"
         android:layout_height="110dp"
         android:layout_marginStart="16dp"
@@ -175,11 +183,11 @@
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/textView_Categoria3"
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/textView_Categoria4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
@@ -190,21 +198,21 @@
         android:textColor="@color/colorText"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/container3_home" />
+        app:layout_constraintTop_toBottomOf="@+id/container_categoria2" />
 
     <LinearLayout
-        android:id="@+id/container5_home"
+        android:id="@+id/container_categoria4"
         android:layout_width="180dp"
         android:layout_height="110dp"
         android:layout_marginTop="8dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginRight="16dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
         android:layout_marginBottom="32dp"
         android:background="@color/container"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:layout_constraintTop_toBottomOf="@+id/textView_Categoria4"
         app:layout_constraintVertical_bias="0.0" />
 
     <Button
@@ -225,6 +233,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/container4_home" />
+        app:layout_constraintTop_toBottomOf="@+id/container_categoria3" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
