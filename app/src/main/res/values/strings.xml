@@ -40,9 +40,21 @@
     <string name="check_naobi">Pessoas não-binárias</string>
     <string name="add_adm">ADICIONAR ADMINISTRADORAS</string>
     <string name="cadastrar_evento">CADASTRAR EVENTO</string>
+
     <string name="pesquisar">Pesquisar</string>
     <string name="resultados">Resultados</string>
     <string name="filtros">Filtros</string>
     <string name="mostrar_mais">Mostrar Mais</string>
     <string name="meus_eventoss">MEUS EVENTOS</string>
-</resources>
+
+    <string-array name="lista_identificacao">
+        <item>mulher cis</item>
+        <item>mulher lésbica</item>
+        <item>mulher trans</item>
+        <item>não-binário</item>
+        <item>não me identifico como mulher nem não-binário</item>
+    </string-array>
+    </resources>
+
+  
+
