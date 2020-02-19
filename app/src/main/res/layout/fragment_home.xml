@@ -7,7 +7,8 @@
     android:layout_height="match_parent"
     android:background="@drawable/background_watercolor"
     android:fitsSystemWindows="true"
-    tools:openDrawer="end">
+    tools:openDrawer="end"
+    >
 
     <include
         layout="@layout/app_bar_menu"
@@ -30,7 +31,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@drawable/backgroundwatercolor"
-        tools:context=".HomeFragment">
+        tools:context=".views.HomeActivity">
 
         <TextView
             android:id="@+id/textView"
@@ -44,7 +45,7 @@
             android:layout_marginBottom="16dp"
             android:fontFamily="@font/lato_bold"
             android:text="@string/meus_eventos"
-            android:textColor="@color/vinho"
+            android:textColor="@color/textoPesquisa"
             android:textSize="20sp"
             app:layout_constraintBottom_toTopOf="@+id/container1_home"
             app:layout_constraintEnd_toEndOf="parent"

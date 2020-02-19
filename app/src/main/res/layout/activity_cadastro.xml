@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background_watercolor"
-    tools:context=".Views.MainActivity">
+    tools:context=".views.CadastroActivity">
 
     <ImageView
         android:id="@+id/imageView5"
@@ -71,7 +71,7 @@
         app:layout_constraintTop_toBottomOf="@+id/identificacao" />
 
 
-    <EditText
+    <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/nome_usuario"
         android:layout_width="380dp"
         android:layout_height="40dp"
@@ -91,7 +91,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/spinner_genero" />
 
-    <EditText
+    <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/email"
         android:layout_width="380dp"
         android:layout_height="40dp"
@@ -111,7 +111,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/nome_usuario" />
 
-    <EditText
+    <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/telefone"
         android:layout_width="380dp"
         android:layout_height="40dp"
@@ -131,7 +131,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/email" />
 
-    <EditText
+    <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/senha"
         android:layout_width="380dp"
         android:layout_height="40dp"
@@ -151,7 +151,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/telefone" />
 
-    <EditText
+    <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/confirmarSenha"
         android:layout_width="380dp"
         android:layout_height="40dp"
